@@ -1,0 +1,37 @@
+File file = new File("C:/Users/Anderson/Desktop/Matrizes");	//crio o diretorio
+file.mkdir();							//Criar a pasta
+file.delete();							//deleta a pasta
+
+
+File arquivo = new File("Matriz.txt");				//Cria arquivo
+arquivo.createNewFile();					//Gera o arquivo	/* try{}catch(ioException) */
+arquivo.delete							//Deleta o arquivo
+
+FileReader ler = new FileReader(arquivo)			//ler arquivo		
+BufferedReader lerb = new BufferedReader(ler);			//ler o q tem no arquivo
+
+FileWriter fileWriter = new FileWriter(arquivo);		//
+BufferedWriter escrever = new BufferedWriter(fileWriter);	//
+escrever.close;
+fileWriter.close;
+
+
+File fil = new File("Diretório");
+File fi[] = fil.listFiles();					//Exibe todos os arquivos do diretorio
+
+
+ex: escrever
+
+escrever.write("Digita algo");
+escrever.close;
+fileWriter.close;
+
+
+ex: leitura
+
+String linha = lerb.readLine();					//ler linha por linha
+while(linha != null)
+{	
+	System.out.print(linha);	
+	linha = lerb.readLine();
+}
