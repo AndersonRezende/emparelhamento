@@ -1,4 +1,4 @@
-# emparelhamento
+# Emparelhamento
 Algoritmo para resolver o problema do emparelhamento - GRAFOS
 
 ### Explicação
